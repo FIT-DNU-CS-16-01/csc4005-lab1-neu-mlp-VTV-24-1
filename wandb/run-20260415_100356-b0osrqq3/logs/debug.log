@@ -1,0 +1,25 @@
+2026-04-15 10:03:56,803 INFO    MainThread:13100 [wandb_setup.py:_flush():81] Current SDK version is 0.26.0
+2026-04-15 10:03:56,803 INFO    MainThread:13100 [wandb_setup.py:_flush():81] Configure stats pid to 13100
+2026-04-15 10:03:56,804 INFO    MainThread:13100 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2026-04-15 10:03:56,804 INFO    MainThread:13100 [wandb_init.py:setup_run_log_directory():721] Logging user logs to D:\Deep Learning\lab 1\csc4005-lab1-neu-mlp-VTV-24-1\wandb\run-20260415_100356-b0osrqq3\logs\debug.log
+2026-04-15 10:03:56,806 INFO    MainThread:13100 [wandb_init.py:setup_run_log_directory():722] Logging internal logs to D:\Deep Learning\lab 1\csc4005-lab1-neu-mlp-VTV-24-1\wandb\run-20260415_100356-b0osrqq3\logs\debug-internal.log
+2026-04-15 10:03:56,807 INFO    MainThread:13100 [wandb_init.py:init():848] calling init triggers
+2026-04-15 10:03:56,807 INFO    MainThread:13100 [wandb_init.py:init():853] wandb.init called with sweep_config: {}
+config: {'data_dir': 'data/NEU-CLS', 'project': 'csc4005-lab1-neu-mlp', 'run_name': 'dropout_0.5', 'optimizer': 'adamw', 'scheduler': 'none', 'lr': 0.001, 'weight_decay': 0.0001, 'dropout': 0.5, 'epochs': 20, 'batch_size': 32, 'img_size': 64, 'patience': 5, 'hidden_dims': [512, 256, 64], 'seed': 42, 'val_size': 0.15, 'test_size': 0.15, 'augment': True, 'num_workers': 0, 'use_wandb': True, '_wandb': {}}
+2026-04-15 10:03:56,807 INFO    MainThread:13100 [wandb_init.py:init():896] starting backend
+2026-04-15 10:04:00,543 INFO    MainThread:13100 [wandb_init.py:init():911] sending inform_init request
+2026-04-15 10:04:00,579 INFO    MainThread:13100 [wandb_init.py:init():919] backend started and connected
+2026-04-15 10:04:00,626 INFO    MainThread:13100 [wandb_init.py:init():989] updated telemetry
+2026-04-15 10:04:01,090 INFO    MainThread:13100 [wandb_init.py:init():1013] communicating run to backend with 90.0 second timeout
+2026-04-15 10:04:02,771 INFO    MainThread:13100 [wandb_init.py:init():1058] starting run threads in backend
+2026-04-15 10:04:03,626 INFO    MainThread:13100 [wandb_run.py:_console_start():2542] atexit reg
+2026-04-15 10:04:03,627 INFO    MainThread:13100 [wandb_run.py:_redirect():2391] redirect: wrap_raw
+2026-04-15 10:04:03,627 INFO    MainThread:13100 [wandb_run.py:_redirect():2460] Wrapping output streams.
+2026-04-15 10:04:03,627 INFO    MainThread:13100 [wandb_run.py:_redirect():2483] Redirects installed.
+2026-04-15 10:04:03,639 INFO    MainThread:13100 [wandb_init.py:init():1098] run started, returning control to user process
+2026-04-15 10:04:03,639 INFO    MainThread:13100 [wandb_run.py:_config_callback():1403] config_cb None None {'num_classes': 6, 'class_names': ['Crazing', 'Inclusion', 'Patches', 'Pitted_Surface', 'Rolled-in_Scale', 'Scratches'], 'input_dim': 4096, 'device': 'cpu', 'resolved_data_dir': 'D:\\Deep Learning\\lab 1\\csc4005-lab1-neu-mlp-VTV-24-1\\data\\NEU-CLS_extracted'}
+2026-04-15 10:04:59,833 INFO    MainThread:13100 [wandb_run.py:_finish():2309] finishing run nguyenvanhuy25021982-dai-hoc/csc4005-lab1-neu-mlp/b0osrqq3
+2026-04-15 10:04:59,834 INFO    MainThread:13100 [wandb_run.py:_atexit_cleanup():2508] got exitcode: 0
+2026-04-15 10:04:59,835 INFO    MainThread:13100 [wandb_run.py:_restore():2490] restore
+2026-04-15 10:04:59,836 INFO    MainThread:13100 [wandb_run.py:_restore():2496] restore done
+2026-04-15 10:05:01,807 INFO    MainThread:13100 [wandb_run.py:_footer_sync_info():3886] logging synced files

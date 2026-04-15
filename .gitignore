@@ -1,8 +1,8 @@
 __pycache__/
 *.pyc
 .venv/
-wandb/
-outputs/*
+
+
 !outputs/.gitkeep
 *_extracted/
 *.pt
